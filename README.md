@@ -8,5 +8,19 @@ Since I didn't find any clear resource about how to create a project on IntelliJ
 
 * The original folder, where the first dev created the project MATTERS! If you clone it in a folder with a different name, the IDE will recognize it as a **new module**. So, to avoid this **new module madness**, a good convention is to match the name of repository with the name of the project folder, when creating it, and to warn all the devs to clone it on a folder with the same name.
 
-**That's it! ** If you wanna try, just clone this repo and try to open and build the project on your android studio.
+## How it works, for other collaborators
+
+As you expect:
+
+* Clone (remembering the convention to keep the same name for the project folder)
+* Create a file on project directory called `local.properties`, with this content:
+
+    ```
+    # If needed, change the path
+    sdk.dir=/Applications/Android Studio.app/sdk
+    ```
+* Open the project on Android Studio.
+* Click on "Run" and see the magic happening!
+
+**That's it!** If you wanna try, just clone this repo and try to open and build the project on your android studio.
 
