@@ -13,7 +13,7 @@ Since I didn't find any clear resource about how to create a project on IntelliJ
 As you expect:
 
 * Clone (remembering the convention to keep the same name for the project folder)
-* Create a file on project directory called `local.properties`, with this content:
+* Create a file on project directory called `local.properties`, with this content (**suggestion**: distribute a `local.properties.dist`, to make this process even more straight-forward):
 
     ```
     # If needed, change the path
