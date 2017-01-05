@@ -1,4 +1,4 @@
-package br.com.yuriteixeira.androidstudio.project.example;
+package io.github.cawfree.example;
 
 import android.os.Bundle;
 import android.app.Activity;
