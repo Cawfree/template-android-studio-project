@@ -1,0 +1,15 @@
+<!-- From: file:/home/cawfree/src/android-worker/working-directory/template-android-studio-project/android-studio-project-example/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="br.com.yuriteixeira.androidstudio.project.example">
+
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="18"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="br.com.yuriteixeira.androidstudio.project.example.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

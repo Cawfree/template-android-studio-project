@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/cawfree/src/android-worker/working-directory/template-android-studio-project/android-studio-project-example/src/main/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/cawfree/src/android-worker/working-directory/template-android-studio-project/android-studio-project-example/src/release/assets" />
+    </dataSet>
+
+</merger>
